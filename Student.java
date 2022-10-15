@@ -9,7 +9,6 @@ public class Student
         this.id = id;
     }
 
-	
     public void setName(String name){
         this.name = name;
     }
@@ -44,6 +43,7 @@ public class Student
 		s1.setCgpa(3.8);
 		
 	
+		System.out.println("test");
 		System.out.println("Student Id: "+ s1.getId());
 		System.out.println("Student Name: "+s1.getName());
 		System.out.println("Student CGPA: "+s1.getCgpa());
